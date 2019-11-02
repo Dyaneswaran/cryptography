@@ -1,6 +1,8 @@
 # Cryptography
 This repository supplies a basic implementation of the standard cryptogrpahic methods used to secure communications.
 
+Programming Langauge - Java
+
 ## Ciphers - 
 > - Playfair
 > - RailFence
@@ -17,12 +19,19 @@ This repository supplies a basic implementation of the standard cryptogrpahic me
 ## Encryption - 
 > - DES
 
+### **NOTE**
+
+- A simple and a not-the-best working code to calculate the cofactors of a NxN matrix is provided in Matrix.java.
+
+- Miller Rabin Primality checking is also implemented in the Diffie-Hellman implementation. It needs to be done 'n' times which is not yet done. 
+
 
 ### TO-DO 
 
 1. Integrate calculation of NxN Determinant in Matrix.java in HillCipher.java.
 2. Make DES, MD5, SHA account for the empty string as well.
 3. Extend RSA to implement RFC 3447. (Atleast the datatype conversions).
+4. Miller Rabin Primality testing to be completed.
 
 
 ## References - 
